@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/encryption"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:gravity="center"
+        android:text="  SMS Enkripsi Dengan Algoritma Blowfish"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim SMS" />
+
+    <Button
+        android:id="@+id/btnBaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baca SMS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:gravity="center"
+        android:text="Tugas Pemograman Mobile | Tri Budi Setiawan 14.11.8314"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

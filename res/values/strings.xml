@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">SMS Enkripsi Blowfish</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_send_sms">Kirim SMS</string>
+    <string name="title_activity_smskripto">SMS Blowfish</string>
+    <string name="title_activity_inbox_sms">Inbox SMS</string>
+
+</resources>
